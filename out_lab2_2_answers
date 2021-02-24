@@ -16,30 +16,3 @@ Answer Q5:
 
 Q6: Explain your method to validate integer values entered
 Answer Q6: 
-0
-	Check what is left unread in the cin buffer: Length =0	String 
-	You entered 1
-
-
-Code for Q4
-
-Code for Q5
-	Enter the value 10
-	Enter an int 	You entered 1
-
-	Enter the value 4.5
-	Enter an int 	You entered 1
-
-	Enter the value abc
-	Enter an int 	You entered 1
-
-	Enter the value a
-	Enter an int 	You entered 1
-
-
-Code for Q6
-	Enter the value 10
-	Enter an int 	Enter the value 4.5
-	Enter an int 	Enter the value abc
-	Enter an int 	Enter the value a
-	Enter an int 

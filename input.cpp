@@ -86,7 +86,7 @@ int main()
     output_file << "Answer Q3: " << answer << endl;
 
     cout << "\nCode for Q4" << endl;
-    /*// uncomment when you get to Q4
+    // uncomment when you get to Q4
    
     for (int i = 0; i < array_values.size(); i++)
     {
@@ -99,7 +99,7 @@ int main()
                             // read more at http://www.cplusplus.com/reference/string/stoi/?kw=stoi
         cout << "\tYou entered " << val << endl << endl;
     }  
-*/
+
     output_file << "\nQ4: (getline only) What happens when you run the code above? Explain why." << endl;
     answer = "when you enter abc the code shows an error and terminates the code"; // enter your answer in between ""
     output_file << "Answer Q4: " << answer << endl;
