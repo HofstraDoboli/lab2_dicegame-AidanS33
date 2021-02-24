@@ -1,1 +1,21 @@
 Add your steps (pseudo-code) for the dice game here.
+Welcome the user
+Ask user if they want to play
+Answer either Y (yes) or N (no)
+
+	While loop for Y
+	init int dice1 - #1-6 (random)
+	init int dice2 - #1-6 (random)
+	init int sum
+	Display: sum
+	If (sum == 7 || sum == 11)
+		Display : You Win!
+	If (sum == 2 || sum == 3 || sum == 12)
+		Display : You Lose! 
+	Else 
+	init point = sum
+	while loop roll < 12
+	if (sum = 7) Player loses
+	if (sum = point) Player wins
+	end while when the player wins or loses
+Ask user if they want to play again
