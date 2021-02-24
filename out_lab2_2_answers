@@ -1,0 +1,45 @@
+
+Q1: (cin only) What happens when you run the code above? Explain why
+Answer Q1: .5 was left in the cin buffer since 4.5 is a floating point not an integer. 2 characters were left in the cin buffer because the code asked for an integer not a string.
+
+Q2: (cin + fail+ignore) What happens when you run the code above? Explain why.
+Answer Q2: You are told the cin buffer after you enter the integer
+
+Q3: Is the problem of reading an integer value solved? Explain your reasoning.
+Answer Q3: yes, it turns 4.5 into 4 which is an integer rather than a floating point and turns the strings/characters into 0
+
+Q4: (getline only) What happens when you run the code above? Explain why.
+Answer Q4: when you enter abc the code shows an error and terminates the code
+
+Q5: (getline+stoi) What happens when you run the code above? Explain why.
+Answer Q5: 
+
+Q6: Explain your method to validate integer values entered
+Answer Q6: 
+0
+	Check what is left unread in the cin buffer: Length =0	String 
+	You entered 1
+
+
+Code for Q4
+
+Code for Q5
+	Enter the value 10
+	Enter an int 	You entered 1
+
+	Enter the value 4.5
+	Enter an int 	You entered 1
+
+	Enter the value abc
+	Enter an int 	You entered 1
+
+	Enter the value a
+	Enter an int 	You entered 1
+
+
+Code for Q6
+	Enter the value 10
+	Enter an int 	Enter the value 4.5
+	Enter an int 	Enter the value abc
+	Enter an int 	Enter the value a
+	Enter an int 

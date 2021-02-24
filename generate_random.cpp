@@ -30,26 +30,26 @@ int main()
     for (int i = 0; i < 10; i ++)
         cout << rand() << '\t';
     cout << "\nQ1: What is the output of rand(). Why? " << endl;
-    answer = "" ; // 1. Write your answer to Q1 in between " "
+    answer = "Large numbers in the hundred millions and billions. This is probably because RAND_MAX is set so high" ; // 1. Write your answer to Q1 in between " "
     cout << "Answer Q1: " << answer << endl;
 
     cout << endl;
     for (int i = 0; i < 10; i ++)
         cout << rand()%5 << '\t';
     cout << "\nQ2: What is the output of rand()%5. Why? " << endl;
-    answer = "" ; // 2. Write your answer to Q2 in between " "
+    answer = "The numbers are all less than 5. The reason is because it is the remainder of the number to the value of 5 which means the number can only be 0-4" ; // 2. Write your answer to Q2 in between " "
     cout << "Answer Q2: " << answer << endl;
 
     cout << endl;
     for (int i = 0; i < 10; i ++)
         cout << rand()%5+3 << '\t';
     cout << "\nQ3: What is the output of rand()%5+3. Why?" << endl;
-    answer = "" ; // 3. Write your answer to Q3 in between " "
+    answer = "The numbers are all less than 8 and greater than 2. The reason is because it is the remainder of the number to the value of 5 and then adding 3 meaning you can only get a number from 3-7" ; // 3. Write your answer to Q3 in between " "
     cout << "Answer Q3: " << answer << endl;
 
     // Comment the line srand(time(NULL)); compile and run the program twice
     cout << "\nQ4: What is the output of the program when srand(time(NULL)) is removed. Why" << endl;
-    answer = "" ; // 4. Write your answer to Q4 in between " "
+    answer = "The numbers come out the same every time. This happens because the random number generator cycles through an order of numbers but without the time being implemented the first number will always be chosen." ; // 4. Write your answer to Q4 in between " "
     cout << "Answer Q4: " << answer << endl;
 
     // 5. Change the rand() expression below to generate a random number 
@@ -58,7 +58,7 @@ int main()
     bool is_error = false; 
     for (int i = 0; i < 50; i ++)
     {
-        int dice_output = rand(); //change this expression so dice_output has a value between 1 and 6
+        int dice_output = rand()%6+1; //change this expression so dice_output has a value between 1 and 6
         if (dice_output < 1 || dice_output > 6)
         {
             cout << "Error: your code does not generate # between 1 and 6" << endl;
